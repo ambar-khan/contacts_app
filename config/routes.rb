@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # end
   namespace :api do
     get "/first_contact" => "contacts#first"
+    get "all_contacts" => "contacts#all"
   end
-  
+
 end
